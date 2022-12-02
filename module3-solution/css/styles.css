@@ -1,0 +1,20 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'glyphicons halfings', sans-serif;
+}
+.navbar-brand h1{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.navbar-collapse li{
+    background-color: #f6b319;
+    text-align: center;
+}
+#main-content{
+    height: 1000px;
+}
+.menu-item{
+    background-color: burlywood;
+}
