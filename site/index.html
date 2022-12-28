@@ -35,12 +35,12 @@
           </div>
           <div id="collapsable-nav" class="collapse navbar-collapse">
             <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li class="visible-xs active">
+              <li class="visible-xs active" id="navHomeButton">
                 <a href="index.html">
                   <br class="hidden-xs"> Home</a>
               </li>
-              <li>
-                <a href="menu-categories.html">
+              <li id="navMenuButton">
+                <a href="#" onclick="$dc.loadMenuCategories();">
                   <br class="hidden-xs"> Menu</a>
               </li>
               <li>
@@ -69,7 +69,6 @@
     <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
     
     <div id="main-content" class="container">
-      
     </div>
     <footer class="panel-footer">
       <div class="container">
