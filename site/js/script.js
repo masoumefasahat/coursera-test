@@ -63,6 +63,7 @@ in order to display the menu categories page*/
             document.querySelector("#navMenuButton").className = classes;
         }
     };
+    
 
     // On page load (before images or CSS)
     document.addEventListener("DOMContentLoaded", function (event){
